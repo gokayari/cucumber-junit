@@ -8,3 +8,8 @@ Feature: Library app login feature
     And user enters librarian password
     Then user should see the dashboard
 
+    Scenario: Login as student
+      When user enters student username
+      And user enters student password
+      Then user should see the dashboard
+
