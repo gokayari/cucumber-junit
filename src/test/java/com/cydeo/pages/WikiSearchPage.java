@@ -19,4 +19,7 @@ public class WikiSearchPage {
 
     @FindBy(id = "firstHeading")
     public WebElement mainHeader;
+
+    @FindBy(xpath = "(//div[@class=\"thumbcaption\"])[1]")
+    public WebElement imageHeader;
 }
