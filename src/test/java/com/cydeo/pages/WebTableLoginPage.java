@@ -30,7 +30,7 @@ public class WebTableLoginPage {
      */
 
     public void login(){
-        this.inputPassword.sendKeys("Test");
+        this.inputUsername.sendKeys("Test");
         this.inputPassword.sendKeys("Tester");
         this.loginButton.click();
     }
