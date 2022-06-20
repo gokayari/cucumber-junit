@@ -66,5 +66,6 @@ public class WebTable_StepDefinitions {
 
         //we can call our login utility method and pass values from map
         webTableLoginPage.login( credentials.get("username"), credentials.get("password") );
+
     }
 }
