@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         glue = "com/cydeo/step_definitions",
         dryRun = false,
         //tags = "@employee and not @admin"
-        tags = "@scenarioOutline"
+        tags = "@maleScientists"
 
 )
 public class CukesRunner {
